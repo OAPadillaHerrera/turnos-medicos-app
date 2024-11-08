@@ -1,0 +1,102 @@
+
+
+/* App.css */
+
+/* Estilos para el encabezado */
+.app-header {
+  background-color: orange;
+  color: orangered;
+  padding: 22px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;         /* Centra verticalmente el logo y el texto */
+  justify-content: center;     /* Centra el contenido del texto en el header */
+  gap: 15px;
+}
+
+/* Estilos para el logo */
+.header-logo {
+  position: absolute;
+  left: 20px;
+  max-height: 50px;
+}
+
+/* Contenedor para centrar el título y el subtítulo */
+.header-text {
+  text-align: center;
+}
+
+/* Estilos para el título */
+.header-title {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Estilos para el subtítulo */
+.header-subtitle {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: orangered;
+}
+
+
+/*-----------------*/
+
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart {
+  margin-bottom: 8px;
+}
+
+.cart p {
+  margin: 4px 0;
+}
+
+.read-the-docs {
+  color: #888;
+}

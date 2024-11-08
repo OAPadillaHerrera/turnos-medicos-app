@@ -1,0 +1,2 @@
+"use strict";
+const valores = [1, 2, 23, true, "Holis"];

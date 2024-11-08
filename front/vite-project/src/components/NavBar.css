@@ -1,0 +1,40 @@
+
+
+/* NavBar.css */
+
+.nav-bar {
+    background-color:olive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;        /* Espaciado interno en la barra */
+    position: fixed;
+    top: 80px;                    /* Ajusta el valor al tamaño de tu encabezado */
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: lightgray;
+    color: white;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .nav-bar {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  
+  
